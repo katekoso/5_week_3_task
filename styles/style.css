@@ -1,0 +1,432 @@
+#box1 {
+    height: 226px; 
+    width: 100vw; 
+    border-bottom: 1px solid #333333;
+}
+
+#city, #address, #mail, #phone_number, #work_hours, #call_me {
+    font-family: 'Montserrat';
+    font-size: 11px;
+    line-height: 20px;
+}
+
+#city, #address, #mail, #phone_number, #work_hours {
+    position: absolute;
+    top: 40px;
+    height: 20px;
+}
+
+#address, #work_hours {
+    font-weight: 400;
+    color: #555555;
+}
+
+#city, #mail, #phone_number, #call_me {
+    font-weight: 600;
+    color: #333333;
+}
+
+#city {
+    width: 100px;
+    left: 120px;
+    top: 40px;
+}
+
+#address {
+    width: 160px;
+    left: 209px;
+}
+
+#mail {
+    width: 151px; 
+    left: 401px
+}
+
+#logo_pic {
+    position: absolute; 
+    left: 585px; 
+    top: 15px;
+}
+
+#logo_img {
+    width: 260px; 
+    height: 64px;
+}
+
+#phone_number {
+    width: 139px; 
+    left: 887px
+}
+
+#work_hours {
+    width: 133px; 
+    left: 1000px
+}
+
+#call_box, #box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#call_box {
+    box-sizing: border-box;
+    padding: 10px 30px;
+    gap: 10px;
+    width: 150px;
+    height: 40px;
+    left: 1160px;
+    top: 30px;
+    background: #ffffff;
+    border: 1px solid #333333;
+}
+
+#call_box:hover {
+    box-shadow: inset 0px 0px 7px #acaaaa;
+}
+
+#call_me {
+    width: 132px; 
+    height: 17px; 
+    flex: none; 
+    text-align: center;
+}
+
+#line1 {
+    position: absolute;
+    width: 1200px;
+    height: 0px;
+    left: 110px;
+    top: 114px;
+    border: 1px solid #999999;
+}
+
+#box2 {
+    padding: 0px;
+    gap: 65px;
+    width: 1200px;
+    height: 32px;
+    top: 152px;
+    left: 110px;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    background: #333333;
+    flex: none;
+}
+
+#portfolio, #services, #prices, #order, #about, #blog, #contacts {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 32px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000000;
+    flex: none;
+    height: 32px;
+}
+
+#portfolio {
+    width: 67px;
+}
+
+#services {
+    width: 48px;
+}
+
+#prices {
+    width: 33px;
+}
+
+#order {
+    width: 85px;
+}
+
+#about {
+    width: 58px;
+}
+
+#blog {
+    width: 30px;
+}
+
+#contacts {
+    width: 90px;
+}
+
+#box3 {
+    background-image: url('../assets/images/background1.png');
+    height: 696px;
+}
+
+.big_text, .smaller_text {
+    font-family: 'Montserrat';
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.big_text {
+    color: #FFFFFF;
+    font-size: 60px;
+}
+
+.smaller_text {
+    font-size: 40px;
+    color: #333333;
+}
+
+#first_line .big_text:first-child, #bottom_line .smaller_text:first-child, #reviews .big_text:first-child {
+    float: left;
+    font-weight: 300;
+}
+
+#second_line .big_text:first-child, #line_one .smaller_text:first-child {
+    float: left;
+    font-weight: 400;
+}
+
+#second_line .big_text:last-child, .smaller_text:only-child, #line_one .smaller_text:last-child {
+    font-weight: 300;
+}
+
+#first_line {
+    padding: 220px 0px 0px 160px;
+}
+
+#second_line {
+    padding: 0px 0px 0px 160px;
+}
+
+#circle {
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 29px;
+    width: 29px;
+    border: 1px solid #FFFFFF;
+    float: right;
+    margin: 25px 130px 0px 0px;
+}
+
+#play {
+    padding: 6px 0px 0px 10px;
+}
+
+#arrow {
+    padding: 195px 0px 0px 146px;
+}
+
+#ellipse {
+    position: absolute;
+    left: 1050px;
+    padding: 111px 95px 0px 0px;
+}
+
+#grey_circle {
+    float: right;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    background-color: #333333;
+    margin: 140px 140px 90px 0px;
+}
+
+#project {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    line-height: 210px;
+}
+
+#box4 {
+    height: 730px;
+    margin: 100px 0px 0px 0px;
+}
+
+#line_one {
+    padding: 80px 0px 0px 160px;
+}
+
+#line_two, #line_three {
+    padding: 0px 0px 0px 160px;
+}
+
+#bedroom {
+    width: 370px;
+    height: 370px;
+    margin: 60px 0px 0px 160px;
+}
+
+#plan {
+    float: right;
+    width: 190px;
+    height: 230px;
+    margin: 60px 400px 0px 0px;
+}
+
+#line_vertical_small, #line_vertical_big {
+    transform: rotate(90deg);
+}
+
+#line_vertical_small {
+    border: 0.5px solid #333333;
+    width: 81px;
+    margin: 36px 0px 0px 264px;
+}
+
+#line_vertical_big {
+    position:absolute;
+    border: 1.5px solid #333333;
+    width: 450px;
+    left: 620px;
+    top: 1526px;
+}
+
+#bottom_line {
+    position:absolute;
+    top: 1650px;
+    padding: 0px 0px 0px 695px;
+}
+
+#bottom_line .smaller_text:last-child {
+    position:absolute;
+    left: 1090px;
+}
+
+#living_room {
+    height: 500px;
+    width: 100vw;
+}
+
+#box5 {
+    height: 260px;
+}
+
+@font-face {
+    font-family: "AshleyCapitaliSofia";
+    src: url(../assets/fonts/AshleyCapitaliSofia.otf);
+}
+
+.numbers {
+    font-family: 'AshleyCapitaliSofia', sans-serif;
+    font-size: 40px;
+    color: #333333;
+    float: left;
+    padding: 60px 0px 0px 210px;
+}
+
+#infinity {
+    padding: 70px 0px 0px 210px;
+}
+
+#years, #how_many, #meters, #ideas {
+    font-family: 'Montserrat';
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    float: left;
+}
+
+#years, #how_many {
+    padding: 10px 0px 0px 176px;
+}
+
+#meters {
+    padding: 10px 0px 0px 222px;
+}
+
+#ideas {
+    padding: 10px 0px 0px 214px;
+}
+
+#box6 {
+    background-image: url(../assets/images/dark.jpg);
+    height: 576px;
+}
+
+#reviews {
+    padding: 20px 0px 0px 160px;
+}
+
+#quotes {
+    position:absolute;
+    padding: 115px 0px 0px 180px;
+}
+
+p {
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-weight: 300;
+    padding: 68px 0px 0px 280px;
+    letter-spacing: 0.02em;
+    font-size: 19px;
+}
+
+#reviewer, #date {
+    font-family: 'Montserrat';
+    color: #C5C5C5;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+#reviewer {
+    float: left;
+    padding: 30px 0px 0px 280px;
+}
+
+#date {
+    padding: 30px 0px 0px 1170px;
+}
+
+#arrow2 {
+    position:absolute;
+    transform: rotate(90deg);
+    left: 230px;
+    top: 2965px;
+}
+
+#line_small1, #line_small2, #line_small3, #line_small4 {
+    position: absolute;
+    top: 3023px;
+    border: 1px solid #ffffff;
+}
+
+#line_small1 {
+    width: 60px;
+    height: 0px;
+    left: 600px;
+}
+
+#line_small2, #line_small3, #line_small4 {
+    width: 30px;
+    height: 0px;
+    border: 1px solid #888888;
+}
+
+#line_small2 {
+    left: 670px;
+}
+
+#line_small3 {
+    left: 710px;
+}
+
+#line_small4 {
+    left: 750px;
+}
+
+#arrow3 {
+    position:absolute;
+    transform: rotate(-90deg);
+    left: 1230px;
+    top: 2965px;
+}
